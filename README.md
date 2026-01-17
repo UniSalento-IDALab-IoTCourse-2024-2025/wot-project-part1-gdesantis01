@@ -36,4 +36,4 @@ L’architettura del sistema è composta dai seguenti elementi:
 3. **Visualizzazione dei dati su Grafana**: Grafana presenta una dashboard user-friendly che consente di monitorare lo storico delle predizioni per ogni dispositivo;
 4. **Monitoring delle predizioni da remoto con Telegram**: mediante un bot Telegram è possibile consultare le predizioni sui dispositivi nelle fasce temporali "Giorno precedente", "Giorno corrente", "Ultime 2 ore".
 
-![Architettura](Soluzione_proposta.png)
+![Architettura](Soluzione_proposta.jpg)
