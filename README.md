@@ -33,5 +33,7 @@ L’architettura del sistema è composta dai seguenti elementi:
 
 1. **Raccolta dei dati dalla Smart House**: lo script *recupero-potenza.py* si occupa del recupero dei valori di potenza aggregata e delle potenze dei singoli dispositivi mediante le API della Smart House;
 2. **Predizione dei carichi attivi**: dopo un pre-processing dei dati, i modelli generano predizioni sullo stato di ogni dispositivo risultato attivo in una finestra temporale. In particolare, i modelli consistono in ensemble di reti *ResNets*. Gli scripts *make_predictions.py* e *partial_fit_make_predictions.py* servono ad effettuare le predizioni utilizzando rispettivamente i modelli che sono stati addestrati solo sul dataset REFIT e i modelli a cui è stato effettuato un partial fit con i dati della Smart House raccolti;
-3.**Visualizzazione dei dati su Grafana**: Grafana presenta una dashboard user-friendly che consente di monitorare lo storico delle predizioni per ogni dispositivo
-4.**Monitoring delle predizioni da remoto con Telegram**: mediante un bot Telegram è possibile consultare le predizioni sui dispositivi nelle fasce temporali "Giorno precedente", "Giorno corrente", "Ultime 2 ore".
+3. **Visualizzazione dei dati su Grafana**: Grafana presenta una dashboard user-friendly che consente di monitorare lo storico delle predizioni per ogni dispositivo;
+4. **Monitoring delle predizioni da remoto con Telegram**: mediante un bot Telegram è possibile consultare le predizioni sui dispositivi nelle fasce temporali "Giorno precedente", "Giorno corrente", "Ultime 2 ore".
+
+![Architettura](Soluzione_proposta.png)
