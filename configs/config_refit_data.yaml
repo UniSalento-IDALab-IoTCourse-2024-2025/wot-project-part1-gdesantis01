@@ -1,0 +1,21 @@
+Kettle:
+  appliance_mean_on_power: 2000
+  train_houses_ind: [4, 5, 6, 7, 8, 9, 12, 13, 15, 19]
+  test_houses_ind: [22]
+Microwave:
+  appliance_mean_on_power: 1000
+  train_houses_ind: [2, 4, 6, 8, 9, 10, 12, 13, 15, 17, 18, 19, 20]
+  test_houses_ind: [22]
+WashingMachine:
+  appliance_mean_on_power: 300
+ # train_houses_ind: [1, 2, 5, 6, 7, 8, 9, 10, 13, 15, 16, 17, 18, 19, 20]
+  train_houses_ind: [1,2,3,4,5,6,7,8,9,10,11,13,15,16,17,18,19,20,21]
+  test_houses_ind: [22]
+Dishwasher:
+  appliance_mean_on_power: 800
+  train_houses_ind: [1, 2, 5, 6, 7, 9, 10, 13, 15, 16, 18, 20]
+  test_houses_ind: [22]
+TumbleDryer:  #lo sto scrivendo io
+  appliance_mean_on_power: 700 # inventato
+  train_houses_ind: [1, 3, 5, 7, 13, 15, 17, 20, 21]
+  test_houses_ind: [22]
