@@ -1,6 +1,6 @@
 # wot-NILMSmartHouse-RaspberryPi-RolloDeSantis
 ## Descrizione del progetto
-This project *NILM Smart House" implements a solution for house appliances monitoring in a non-intrusive way, in order to increase the awareness of inhabitants about their households consumption without installing any power sensors as Shelly Plugs on every devices.
+This project *NILM Smart House* implements a solution for house appliances monitoring in a non-intrusive way, in order to increase the awareness of inhabitants about their households consumption without installing any power sensors as Shelly Plugs on every devices.
 
 Il sistema si basa su una rete di machine learning, in particolare su un ensemble di reti ResNet, in grado di percepeire se il dispositivo è stato acceso o meno in una determinata fascia oraria. L'addestramento dei modelli è stato effettuato sui dati del dataset REFIT, che hanno dispositivi e impianti con caratteristiche elettriche europee, quindi simili alla Smart House.
 
@@ -37,3 +37,6 @@ L’architettura del sistema è composta dai seguenti elementi:
 4. **Monitoring delle predizioni da remoto con Telegram**: mediante un bot Telegram è possibile consultare le predizioni sui dispositivi nelle fasce temporali "Giorno precedente", "Giorno corrente", "Ultime 2 ore".
 
 ![Architettura](Soluzione_proposta.jpg)
+
+Inserire citazione a CamAL
+Inserire link al sito del progetto per IoT
